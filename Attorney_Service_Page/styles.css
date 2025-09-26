@@ -1,9 +1,9 @@
 
 :root{
---bg: #0f1724; /* azul muy oscuro */
+--bg: #0f1724; 
 --card: #0b1220;
---accent: #8b5cf6; /* violeta suave */
---accent-2: #06b6d4; /* cian */
+--accent: #8b5cf6; 
+--accent-2: #06b6d4; 
 --muted: #94a3b8;
 --glass: rgba(255,255,255,0.04);
 --radius: 14px;
@@ -68,4 +68,5 @@ button[type=submit]{margin-top:12px;width:100%;padding:10px;border-radius:10px;b
 
 .team-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:12px}
 .member{padding:12px;border-radius:10px;background:var(--card);display:flex;gap:12px;align-items:center}
+
 .member .avatar{width:56px;height:56px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02))}
